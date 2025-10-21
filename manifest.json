@@ -1,15 +1,14 @@
 {
     "manifest_version": 3,
     "name": "riso darker",
-    "version": "1.0.1",
-    "description": "Добавляет темную тему в дневник riso. Created by @CookiexZero",
+    "version": "1.1.0",
+    "description": "темная тема для электронного дневника рисо // by @cookiexzero",
     "icons": {
     "128": "icons/128.png",
     "64": "icons/64.png",
     "48": "icons/48.png",
     "16": "icons/16.png"
   },
-    "permissions": ["storage"],
     "host_permissions": [
     "https:/riso.sev.gov.ru/*"
   ],
@@ -23,7 +22,7 @@
     ],
   "browser_specific_settings": {
   "gecko": {
-    "id": "riso-darker@CookiexZero",
+    "id": "riso-darker@cookiexzero",
     "strict_min_version": "91.1"
   }
 }

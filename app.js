@@ -99,10 +99,8 @@ style.innerHTML = `
 `;
 document.head.appendChild(style);
 
-// Находим элемент с классом .grid__scrollbar
 const scrollbarElement = document.querySelector('.grid__scrollbar');
 
-// Если элемент найден, удаляем его
 if (scrollbarElement) {
     scrollbarElement.remove();
 }

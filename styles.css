@@ -343,6 +343,7 @@ body {
 
 .dnevnik-day {
     background-color: #242424 !important;
+    box-shadow: 0 0 0 1px #a3a3a3 !important;
 }
 
 .m-menu-item.active {
@@ -568,6 +569,11 @@ td[valign=top] span {
     border: 1px solid #545454 !important;
 }
 
+.field:focus {
+    border: 1px solid #ffffff !important;
+    box-shadow: 0 0 0 3px #545454 !important;
+}
+
 .ej-form-control {
     color: #ffffff !important;
 }
@@ -716,12 +722,12 @@ div.message__roles div div {
 
 .dnevnik-lesson:nth-child(odd) {
     background-color: #242424 !important;
-    border-bottom: 1px solid #ffffff !important;
+    border-bottom: 1px solid #a3a3a3 !important;
 }
 
 .dnevnik-lesson:nth-child(2n) {
     background-color: #242424 !important;
-    border-bottom: 1px solid #ffffff !important;
+    border-bottom: 1px solid #a3a3a3 !important;
 }
 
 .dnevnik-lesson__number, .dnevnik-lesson__time {
@@ -809,4 +815,21 @@ div.notice__content__text p a {
 div.notice__content__text p a:hover {
     color: #adadad !important;
     text-decoration: underline !important;
+}
+
+span.dnevnik-lesson__minutes {
+    background-color: #3c3c3c !important;
+}
+
+div.dnevnik-lesson__attach a.button {
+    transition: all 0.3s ease-in-out !important;
+    --color-background-active: #545454 !important;
+}
+
+div.dnevnik-lesson__attach a.button:hover {
+    border-color: #a3a3a3 !important;
+}
+
+div.context__items a.context__item:hover {
+    background-color: #3c3c3c !important;
 }
