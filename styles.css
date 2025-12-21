@@ -121,9 +121,17 @@ body {
     border-color: #242424 !important;
 }
 
+div.navigation-header {
+    background-color: #242424 !important;
+}
+
 .navigation-header nav:last-child .navigation-main:last-child {
     background-color: #3c3c3c !important;
     color: #ffffff !important;
+}
+
+div.navigation-tabs--header {
+    background-color: #242424 !important;
 }
 
 .navigation-main__item {
