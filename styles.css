@@ -619,6 +619,10 @@ div.typography h2 {
     color: #adadad !important;
 }
 
+div.layout-content {
+    background-color: #242424 !important;
+}
+
 div.layout-content header {
     background-color: #242424 !important;
     color: #ffffff !important;
