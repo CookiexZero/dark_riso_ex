@@ -8,6 +8,7 @@ body {
 .footer {
     background-color: #242424 !important;
     border-top: 1px solid #242424 !important;
+    background-image: none !important;
 }
 
 .footer a {
