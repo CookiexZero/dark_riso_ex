@@ -10,7 +10,7 @@
     "16": "icons/16.png"
   },
     "host_permissions": [
-    "https:/riso.sev.gov.ru/*"
+    "https://riso.sev.gov.ru/*"
   ],
     "content_scripts": [
       {
