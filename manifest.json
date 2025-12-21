@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "riso darker",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "темная тема для электронного дневника рисо // by @cookiexzero",
     "icons": {
     "128": "icons/128.png",
